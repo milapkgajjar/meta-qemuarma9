@@ -1,7 +1,7 @@
 # meta-qemuarma9: The Yocto (Kirkstone) layer for custom image
 
-**Resize the rootfs image
-**
+**Resize the rootfs image**
+
 IMAGE="./tmp/deploy/images/qemuarma9/auto-image-qemuarma9.ext4"; qemu-img resize -f raw "$IMAGE" 16M
 
 **run qemu**
